@@ -1,0 +1,66 @@
+body{
+  background-color: blueviolet;
+}
+body.correct{
+  background-color: rgb(15, 235, 70);
+}
+
+body.wrong{
+background-color: crimson;
+}
+
+.bg {
+ border: 1px solid blue;
+ margin: 10%;
+ background-color: rgb(238, 238, 238);
+ border-radius: 6px;
+}
+div#question {
+    font-size: 24px;
+    color: #0a0a0a;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+.btn {
+  border-radius: 8px;
+  border: 1px groove blue; 
+  color: azure;
+  margin: 10%;
+  outline: none;
+  background-color: darkblue;
+  padding: 4%
+}
+.btn:hover {
+  background-color: rgb(2, 19, 19);
+}
+
+.btn.wrong{
+  background-color: darkred;
+}
+
+.btn.correct{
+  background-color: rgb(12, 240, 12);
+  color: black;
+}
+
+.btn-grid{
+display: grid;
+grid-template-columns: repeat(2, auto);
+}
+.hide {
+  display: none;
+}
+
+.start-button, next-button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
